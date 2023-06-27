@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('/public/Poppins/Poppins-Light.ttf');
+}
+
+input{
+    margin-bottom: 8px;
+    margin: auto;
+    height: 30px;
+    width: 290px;
+    border: 0;
+    background-color:#ffff;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+button{
+    background-color: blue;
+    height: 32px;
+    width: 50px;
+    border: 0;
+    margin-left: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+.app_body{
+    border-radius: 5px;
+    background-color: aliceblue;
+    height: auto;
+    width: 500px;
+    box-shadow: 10px black;
+    text-align: center;
+    padding: 50px;
+    margin-top: 25%;
+
+}
+.poppins{
+    font-family: Poppins;
+}
+.todo_list{
+   margin-top: 15px;
+   font-size: 18px;
+   text-decoration: none;
+   display: grid;
+}
